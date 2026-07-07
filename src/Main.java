@@ -16,7 +16,7 @@ public class Main {
     public static void toConsole(String word, Book book) {
         System.out.println();
         System.out.println("Это большая книга: " + book.isBig());
-        System.out.println("Слово " + word + " в названии, имени или фамилии автора: " + book.matches(word));
+        System.out.println("Слово '" + word + "' в названии, имени или фамилии автора: " + book.matches(word));
         System.out.println("Оценка книги: " + book.estimatePrice());
     }
 }
